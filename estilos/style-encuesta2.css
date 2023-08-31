@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    background: #fff;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.fr{
+    float: right;
+}
+.fl, .votar{
+    float: left;
+}
+.cf{
+    clear: both;
+}
+.wrap{
+    padding: 25px;
+    margin: 0 auto;
+    width: 385px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 70px;
+    border: 1px solid #E0E0E0;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 21px;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 15px;
+    text-align: center;
+}
+form > div{
+    margin-bottom: 20px;
+}
+form .titulo{
+    margin-right: 20px;
+}
+form label{
+    display: block;
+}
+form input[type='text'], select{
+    border: 1px solid #E0E0E0;
+    padding: 6px;
+    resize: none;
+}
+
+ul.votacion{
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.votacion li a:hover{
+    color: black;
+    background: gray;
+}
+.votacion li span{
+    margin-left: 10px;
+}
+.votacion .fl{
+    margin-bottom: 5px;
+}
+.volver{
+    display: block;
+    padding-top: 15px;
+    clear: both;
+}
+.votar{
+    float: center;
+}
+.resultado{
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: black;
+    text-align: center;
+}
+input[type="submit"]{
+    padding: 15px;
+    color: #fff;
+    background: #01ff16;
+    width: 140px;
+    margin:20px auto;
+    margin-top: o;
+    border: 0px solid #01ff16;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btnv{
+    background: #ff0000;
+    text-align: right;
+    color:#ffffff;
+    padding: 15px;
+    width: 420px;
+    margin:20px auto;
+    margin-top: o;
+    border: 0px solid #EA1D5E;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: #fff;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #EA1D5E;
+    transition: .5s;
+}
+form{
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    display: center;
+    flex-direction: column;
+}
+.form-container h1{
+    font-size: 40px;
+    color: #050505;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    align-items: center;
+}
+.btna{
+    background: #ff0000;
+    text-align: center;
+    color:#ffffff;
+}
+.wrap{
+    padding: 25px;
+    margin: 0 auto;
+    width: 885px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    margin-top: 50px;
+    border: 1px solid #E0E0E0;
+}
+ul.votacion{
+    margin-bottom: 25px;
+    list-style: none;
+}
+.pregunta{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #EA1D5E;
+    background: #EA1D5E;
+    width: 30px;
+}
+label{
+    font-size: 20px;
+    color: #050505;
+    margin-top: 10px;
+    text-align: center; 
+}
+input[type="text"], input[type="password"]{
+    outline:none;
+    padding: 20px;
+    display: block;
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #050505;
+    margin: 20px auto;
+    height: 100px;
+}
+.btnv{
+    background: #ff0000;
+    text-align: right;
+    color:#ffffff;
+    padding: 15px;
+    width: 420px;
+    margin:20px auto;
+    margin-top: o;
+    border: 0px solid #EA1D5E;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+input[type="submit"]{
+    padding: 15px;
+    color: #fff;
+    background: #01ff16;
+    width: 140px;
+    margin:20px auto;
+    margin-top: o;
+    border: 0px solid #01ff16;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
